@@ -1,0 +1,44 @@
+{
+  "Taro component": {
+    "prefix": "tac",
+    "body": [
+      "import Taro, { Component } from '@tarojs/taro'",
+      "import { View } from '@tarojs/components'",
+      "",
+      "class ${1:Name} extends Component {",
+      "\trender() {",
+      "\t\treturn(",
+      "\t\t\t<View>",
+      "\t\t\t\t$2",
+      "\t\t\t</View>",
+      "\t\t)",
+      "\t}",
+      "}",
+      "",
+      "export default ${1:Name}"
+    ],
+  },
+  "Taro Page": {
+    "prefix": "tap",
+    "body": [
+      "import Taro, { Component } from '@tarojs/taro'",
+      "import { View } from '@tarojs/components'",
+      "",
+      "class ${1:Name} extends Component {",
+      "\tconfig = {",
+      "\t\tnavigationBarTitleText: '${1:Name}'",
+      "\t}",
+      "",
+      "\trender() {",
+      "\t\treturn(",
+      "\t\t\t<View>",
+      "\t\t\t\t$2",
+      "\t\t\t</View>",
+      "\t\t)",
+      "\t}",
+      "}",
+      "",
+      "export default ${1:Name}"
+    ],
+  }
+}
